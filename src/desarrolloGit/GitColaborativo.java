@@ -6,7 +6,7 @@ public class GitColaborativo {
 	public static void main(String[] args) {
 		var sc = new Scanner(System.in);
 		
-		double descvip = 0.95;
+		double descvip = 0.05;
 		
 		//cliente introduce los km
 		System.out.println("Introduzca el numero de km que ha conducido: ");
@@ -27,7 +27,7 @@ public class GitColaborativo {
 		else if((km < 300) && (vip == 2))
 		System.out.println("Total: " + 200);
 		
-		else if((km >=300) && (km <= 1000) && (vip == 2 ))
+		else if(km >=300 && km <= 100) && vip == 2 )
 		System.out.println("Total no vip: " + (p1 * 1.21));
 		
 		else if((km >= 300) && (km <= 1000) && (vip == 1))
